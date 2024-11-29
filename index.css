@@ -9,6 +9,7 @@
 }
 
 
+/* Le prochain block c'est la déclaration de variables que j'ai utilisées sur des sélecteurs */
 :root {
   --service-color-primary: #FA4A0C;
   --font-family: 'Poppins';
@@ -17,6 +18,8 @@
 }
 
 
+/* Ici je prends la balise HTML pour applique la police de famille à tout ce qui sera comme texte */
+/* sur la page */
 html {
   font-family: var(--font-family);
 }
@@ -136,6 +139,7 @@ header {
 }
 
 
+/* La grande section qui suit fait réference à la partie du code avec l'image de la table pleine */
 .landing-section {
 
   display: flex;
@@ -153,6 +157,7 @@ header {
 
 
   .call-to-action {
+
     width: 70%;
     display: flex;
     gap: 1.5rem;
@@ -182,8 +187,7 @@ header {
       gap: 1.8em;
       padding: .5rem 2rem;
     }
+
   }
-
-
 
 }

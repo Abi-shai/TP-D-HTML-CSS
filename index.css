@@ -77,3 +77,28 @@ h3 {
 /* Les styles qui suivent en bas c'est pour gérer le positionnement des différents blocks */
 /* Et le positionnement des enfants qu'on retrouve dans ces blocks */
 /* Et aussi le style des cas spéciaux et individuels qu'on à sur la maquette */
+
+
+header {
+
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1.7rem 2.5rem;
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+    a {
+      text-decoration: none;
+      color: var(--text-color-primary);
+    }
+
+    :first-child {
+      color: var(--service-color-primary);
+    }
+  }
+
+}

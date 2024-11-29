@@ -1,1 +1,79 @@
-/* RIEN POUR L'INSTANT */
+/* Mise en place des variables qui seront utilisées sur différents élements de la page */
+
+
+:root {
+  --service-color-primary: #FA4A0C;
+  --font-family: 'Poppins';
+  --text-color-primary: #252B42;
+  --text-color-secondary: #737373;
+}
+
+
+html {
+  font-family: var(--font-family);
+}
+
+
+/* Sytle du texte en grand que l'on retrouve au dessus de la première image en grand */
+h2 {
+  font-size: 3.625rem;
+  font-weight: 700;
+  line-height: 5rem;
+  letter-spacing: 0.0125rem;
+}
+
+
+/* Style des textes en grand que l'on retrouve sur les sections plus bas de la maquette */
+h3 {
+  font-size: 2.75rem;
+  font-weight: 600;
+  line-height: 3.5625rem;
+  letter-spacing: 0.00625rem;
+}
+
+
+/* Ça c'est le style des petits textes en orange qu'on retrouve centré sur quelques sections de la maquette */
+.headline {
+  color: var(--service-color-primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  letter-spacing: 0.00625rem;
+}
+
+
+/* Il y a des textes qui sont gris fades sur quelques sections de la maquette, c'est son style d'en bas ça */
+.text-secondary {
+  color: var(--text-color-secondary);
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.375rem;
+  letter-spacing: 0.0125rem;
+}
+
+
+/* Style qui sera appliquée sur les buttons orange qu'on retrouve sur la maquette */
+.button-1 {
+  color: white;
+  background-color: var(--service-color-primary);
+  border-radius: 1.875rem;
+  box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.20);
+  text-align: center;
+  align-content: center;
+  padding: 1rem 2rem;
+}
+
+
+.button-2 {
+  border-radius: 1.875rem;
+  border: 1px solid #FFF;
+  text-align: center;
+  align-content: center;
+  padding: 1rem 2rem;
+}
+
+
+/* La mise en place des styles qui se répètent au moins deux fois est terminée à partir de ce niveau des lignes de code */
+/* Les styles qui suivent en bas c'est pour gérer le positionnement des différents blocks */
+/* Et le positionnement des enfants qu'on retrouve dans ces blocks */
+/* Et aussi le style des cas spéciaux et individuels qu'on à sur la maquette */

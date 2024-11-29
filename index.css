@@ -39,7 +39,7 @@ h2 {
 /* Style des textes en grand que l'on retrouve sur les sections plus bas de la maquette */
 h3 {
   font-size: 2.75rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 3.5625rem;
   letter-spacing: 0.00625rem;
 }
@@ -193,6 +193,7 @@ header {
 }
 
 
+/* La partie du code qui stylise la première section de la maquette */
 .features-promotion-set1 {
 
   width: 100%;
@@ -200,7 +201,42 @@ header {
   justify-content: center;
 
   .illus-set1 {
-    transform: translateX(-50px) translateY(-80px);
+    transform: translateX(-50px) translateY(-50px);
   }
 
+}
+
+
+/* La partie du code qui stylise la deuxième section de la maquette */
+.features-promotion-set2 {
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5em;
+  width: 80%;
+  margin: auto;
+
+  .illus-set2 {
+
+    display: flex;
+    flex-direction: row;
+    gap: 6em;
+
+    .illus-set2-content-right {
+
+      justify-content: flex-end;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+      text-align: left;
+      padding-bottom: 10%;
+
+      p {
+        max-width: 32.11638rem;
+      }
+
+    }
+
+  }
 }

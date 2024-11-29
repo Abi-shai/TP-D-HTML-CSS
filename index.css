@@ -139,12 +139,6 @@ header {
 }
 
 
-main {
-  overflow: hidden;
-}
-
-
-
 /* La grande section qui suit fait réference à la partie du code avec l'image de la table pleine */
 .landing-section {
 
@@ -220,7 +214,7 @@ main {
   flex-direction: column;
   text-align: center;
   gap: 5em;
-  width: 80%;
+  width: 75%;
   margin: auto;
 
   .illus-set2 {
@@ -255,7 +249,7 @@ main {
   flex-direction: column;
   text-align: center;
   justify-self: center;
-  width: 80%;
+  width: 75%;
   margin: auto;
   padding: 8em;
 

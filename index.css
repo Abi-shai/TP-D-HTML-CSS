@@ -139,6 +139,12 @@ header {
 }
 
 
+main {
+  overflow: hidden;
+}
+
+
+
 /* La grande section qui suit fait réference à la partie du code avec l'image de la table pleine */
 .landing-section {
 
@@ -224,6 +230,42 @@ header {
     gap: 6em;
 
     .illus-set2-content-right {
+
+      justify-content: flex-end;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5em;
+      text-align: left;
+      padding-bottom: 10%;
+
+      p {
+        max-width: 32.11638rem;
+      }
+
+    }
+
+  }
+}
+
+
+/* La partie du code qui stylise la troisième section de la maquette */
+.features-promotion-set3 {
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-self: center;
+  width: 80%;
+  margin: auto;
+  padding: 8em;
+
+  .illus-set3 {
+
+    display: flex;
+    flex-direction: row;
+    gap: 6em;
+
+    .illus-set3-content-right {
 
       justify-content: flex-end;
       display: flex;

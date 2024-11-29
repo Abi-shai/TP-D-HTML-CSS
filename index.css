@@ -191,3 +191,16 @@ header {
   }
 
 }
+
+
+.features-promotion-set1 {
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .illus-set1 {
+    transform: translateX(-50px) translateY(-80px);
+  }
+
+}

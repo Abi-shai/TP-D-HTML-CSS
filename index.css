@@ -276,3 +276,85 @@ header {
 
   }
 }
+
+
+
+/* L'avant dernière partie, celle des contacts */
+.contact-wrapper {
+
+  display: flex;
+  gap: 2.61em;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 4em;
+
+  h3 {
+    text-align: center;
+  }
+
+  .form-wrapper {
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: .67em;
+      width: 90%;
+      margin: auto;
+
+      .input {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        gap: .5em;
+        width: 27.25rem;
+
+        label {
+          font-size: 0.875rem;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 1.125rem;
+          color: #666;
+        }
+
+        input {
+          border-radius: 0.5rem;
+          border: 1px solid #CCC;
+          padding: 1em 1em;
+        }
+
+      }
+
+      :nth-child(3) {
+        input {
+          height: 9.26194rem;
+        }
+      }
+
+      button {
+        font-size: 1.25rem;
+        border-radius: 0.5rem;
+        width: 10.96863rem;
+        padding-top: .5em;
+        padding-bottom: .4em;
+      }
+    }
+  }
+
+}
+
+
+/* Et enfin le Footer  */
+footer {
+  padding: 2em 0;
+  text-align: center;
+
+  .text-special-2 {
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.125rem;
+    letter-spacing: 0.00625rem;
+    color: #5C5C5C;
+  }
+}

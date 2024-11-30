@@ -337,6 +337,7 @@ header {
         width: 10.96863rem;
         padding-top: .5em;
         padding-bottom: .4em;
+        box-shadow: none;
       }
     }
   }
